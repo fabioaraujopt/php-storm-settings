@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f7b7c639-175c-4eb5-8a61-466aa2cb697e" name="RicsServer" url="http://192.168.1.45">
+        <fileTransfer host="192.168.1.45" port="21" rootFolder="/var/www/html/fire_planner">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
